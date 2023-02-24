@@ -9,6 +9,8 @@
   "author": "yura",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^4.0.31",
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -17,6 +19,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.1",
+    "rateyo": "^2.3.3",
     "sass": "^1.55.0",
     "slick-carousel": "^1.8.1"
   }

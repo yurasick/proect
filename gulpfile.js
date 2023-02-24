@@ -39,7 +39,7 @@ function build(){
     return src ([
         'app/**/*.html',
         'app/css/style.min.css',
-        'app/js/main.min.js'
+        'app/js/main.min.js',
     ],{base:'app'})
     .pipe(dest('dict')) 
 }
@@ -53,8 +53,10 @@ function watching(){
 
 function scripts(){
     return src([
-        'node_modules/jquery/dist/jquery.js',
+        'node_modules/jquery/dist/jquery.js',        
         'node_modules/slick-carousel/slick/slick.js',
+        'node_modules/@fancyapps/ui/dist/fancybox.umd.js', 
+        'node_modules/rateyo/src/jquery.rateyo.js',         
         'app/js/main.js'
     ])
     .pipe(concat('main.min.js'))
